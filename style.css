@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family: [Inter](https://fonts.google.com/specimen/Inter);
+    font-weight: 400, 600, 700; */
+}
+body{
+    /* height: 100%; */
+    /* width: 100%; */
+    background-color: black;
+}
+.container{
+    height: 500px;
+    width: 300px;
+    /* background-image: Grey 700: hsl(0, 0%, 20%); */
+    /* background-color:Grey 900: hsl(0, 0%, 8%); */
+    /* top:50%; */
+    /* left:50%; */
+    /* right: 50%; */
+    position: absolute;
+    border-radius: 5px;
+    background-color: rgb(52, 50, 50);
+    margin-top: 50px;
+    margin-left: 38%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}
+.top-box{
+    height: 230px;
+    /* background-color: rgb(69, 60, 60); */
+}
+.top-box img{
+    margin-left: 35%;
+    margin-top: 12%;
+    border-radius: 100%;
+    width: 80px;
+}
+.top-box h1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.top-box h3{
+    font-size: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #ddf714;
+    margin-top: 4px;
+    margin-left: 88px;
+}
+.top-box p{
+    font-size: 10px;
+    /* font-weight: bold; */
+    font-family: sans-serif;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.bottom-box{
+    height: 270px;
+    /* background-color: aqua; */
+}
+.button .button-links{
+    width: 250px;
+    padding: 11px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(41, 40, 40);
+    color: #fff;
+}
+
+.button .button-links:hover{
+    color: #ddf714;
+    cursor: pointer;
+}
